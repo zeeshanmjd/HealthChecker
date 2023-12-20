@@ -7,11 +7,20 @@ This is a .NET console application that checks the health of a set of HTTP endpo
 
 Before running the program, make sure you have the following installed on your machine:
 
-- .NET SDK (Software Development Kit)
+- .NET SDK 6.0 (Software Development Kit)
 
 ## Build
 
 To build the program, open a terminal or command prompt, navigate to the project directory, and run the following command:
 
-```bash
-dotnet build -o out
+     dotnet build -o out
+
+## Run
+
+To run the program, open a terminal or command prompt, navigate to the project directory, and run the following command providing the path to your YAML configuration file as an argument:
+
+     dotnet out/HealthChecker.dll path/to/your/config.yaml
+
+## Exit
+
+To exit the program, press `CTRL+C` in the terminal or command prompt.
